@@ -3,10 +3,10 @@ name: PipelineWorkflow
 on:
   push:
     branches:
-      - master
+      - GithubAction118
   pull_request:
     branches: 
-      - master
+      - GithubAction118
 
 jobs:
     build:
